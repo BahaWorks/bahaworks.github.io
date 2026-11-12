@@ -1,0 +1,400 @@
+{
+  "kpi_2024": {
+    "revenue": 2671711.0,
+    "orders": 6867,
+    "aov": 422.6,
+    "customers": 3328,
+    "return_rate": 7.3,
+    "delivery_days": 2.9
+  },
+  "kpi_2025": {
+    "revenue": 3298545.0,
+    "orders": 8509,
+    "aov": 421.6,
+    "customers": 3738,
+    "return_rate": 6.9,
+    "delivery_days": 2.9
+  },
+  "revenue_growth_pct": 23.5,
+  "monthly": [
+    {
+      "month": "2024-01",
+      "revenue": 185040
+    },
+    {
+      "month": "2024-02",
+      "revenue": 182173
+    },
+    {
+      "month": "2024-03",
+      "revenue": 233121
+    },
+    {
+      "month": "2024-04",
+      "revenue": 211993
+    },
+    {
+      "month": "2024-05",
+      "revenue": 212074
+    },
+    {
+      "month": "2024-06",
+      "revenue": 178906
+    },
+    {
+      "month": "2024-07",
+      "revenue": 220242
+    },
+    {
+      "month": "2024-08",
+      "revenue": 220207
+    },
+    {
+      "month": "2024-09",
+      "revenue": 254615
+    },
+    {
+      "month": "2024-10",
+      "revenue": 258941
+    },
+    {
+      "month": "2024-11",
+      "revenue": 279629
+    },
+    {
+      "month": "2024-12",
+      "revenue": 234770
+    },
+    {
+      "month": "2025-01",
+      "revenue": 260591
+    },
+    {
+      "month": "2025-02",
+      "revenue": 208200
+    },
+    {
+      "month": "2025-03",
+      "revenue": 342233
+    },
+    {
+      "month": "2025-04",
+      "revenue": 227539
+    },
+    {
+      "month": "2025-05",
+      "revenue": 266956
+    },
+    {
+      "month": "2025-06",
+      "revenue": 271321
+    },
+    {
+      "month": "2025-07",
+      "revenue": 270177
+    },
+    {
+      "month": "2025-08",
+      "revenue": 276465
+    },
+    {
+      "month": "2025-09",
+      "revenue": 257644
+    },
+    {
+      "month": "2025-10",
+      "revenue": 257729
+    },
+    {
+      "month": "2025-11",
+      "revenue": 342600
+    },
+    {
+      "month": "2025-12",
+      "revenue": 317091
+    }
+  ],
+  "categories": [
+    {
+      "name": "عطور",
+      "revenue": 1667417,
+      "share": 27.9,
+      "return_rate": 4.1
+    },
+    {
+      "name": "عبايات",
+      "revenue": 1618316,
+      "share": 27.1,
+      "return_rate": 13.7
+    },
+    {
+      "name": "إلكترونيات صغيرة",
+      "revenue": 1491868,
+      "share": 25.0,
+      "return_rate": 7.7
+    },
+    {
+      "name": "العناية بالبشرة",
+      "revenue": 680623,
+      "share": 11.4,
+      "return_rate": 5.3
+    },
+    {
+      "name": "مستلزمات منزلية",
+      "revenue": 512032,
+      "share": 8.6,
+      "return_rate": 5.8
+    }
+  ],
+  "regions": [
+    {
+      "name": "الرياض",
+      "revenue": 2136538,
+      "share": 35.8,
+      "delivery_days": 2.5
+    },
+    {
+      "name": "جدة",
+      "revenue": 1375354,
+      "share": 23.0,
+      "delivery_days": 2.5
+    },
+    {
+      "name": "الدمام",
+      "revenue": 902006,
+      "share": 15.1,
+      "delivery_days": 3.6
+    },
+    {
+      "name": "مكة المكرمة",
+      "revenue": 796367,
+      "share": 13.3,
+      "delivery_days": 3.6
+    },
+    {
+      "name": "المدينة المنورة",
+      "revenue": 692553,
+      "share": 11.6,
+      "delivery_days": 3.6
+    },
+    {
+      "name": "غير محدد",
+      "revenue": 67439,
+      "share": 1.1,
+      "delivery_days": 2.8
+    }
+  ],
+  "payments": [
+    {
+      "name": "مدى",
+      "share": 37.9,
+      "return_rate": 6.1
+    },
+    {
+      "name": "Apple Pay",
+      "share": 27.2,
+      "return_rate": 6.5
+    },
+    {
+      "name": "تمارا",
+      "share": 17.1,
+      "return_rate": 6.4
+    },
+    {
+      "name": "الدفع عند الاستلام",
+      "share": 9.8,
+      "return_rate": 13.4
+    },
+    {
+      "name": "بطاقة ائتمانية",
+      "share": 8.0,
+      "return_rate": 6.8
+    }
+  ],
+  "channels": [
+    {
+      "name": "تطبيق الجوال",
+      "share": 46.3
+    },
+    {
+      "name": "الموقع",
+      "share": 32.1
+    },
+    {
+      "name": "سناب شات",
+      "share": 13.5
+    },
+    {
+      "name": "انستغرام",
+      "share": 8.1
+    }
+  ],
+  "events": [
+    {
+      "name": "رمضان ١٤٤٥",
+      "avg_daily": 8314,
+      "baseline_daily": 6125,
+      "uplift_pct": 36
+    },
+    {
+      "name": "الجمعة البيضاء ٢٠٢٤",
+      "avg_daily": 11785,
+      "baseline_daily": 8625,
+      "uplift_pct": 37
+    },
+    {
+      "name": "رمضان ١٤٤٦",
+      "avg_daily": 11147,
+      "baseline_daily": 8209,
+      "uplift_pct": 36
+    },
+    {
+      "name": "الجمعة البيضاء ٢٠٢٥",
+      "avg_daily": 15608,
+      "baseline_daily": 8456,
+      "uplift_pct": 85
+    }
+  ],
+  "normal_daily": 8167,
+  "segments": [
+    {
+      "name": "الأبطال",
+      "customers": 1207,
+      "customer_share": 24.3,
+      "revenue_share": 57.1
+    },
+    {
+      "name": "عملاء أوفياء",
+      "customers": 777,
+      "customer_share": 15.7,
+      "revenue_share": 17.2
+    },
+    {
+      "name": "يحتاجون اهتماماً",
+      "customers": 937,
+      "customer_share": 18.9,
+      "revenue_share": 9.9
+    },
+    {
+      "name": "خاملون",
+      "customers": 1234,
+      "customer_share": 24.9,
+      "revenue_share": 8.4
+    },
+    {
+      "name": "معرّضون للفقد",
+      "customers": 390,
+      "customer_share": 7.9,
+      "revenue_share": 4.9
+    },
+    {
+      "name": "عملاء جدد واعدون",
+      "customers": 416,
+      "customer_share": 8.4,
+      "revenue_share": 2.6
+    }
+  ],
+  "repeat_rate": 60.5,
+  "top20_share": 61.9,
+  "forecast": {
+    "holdout_mape_pct": 11.0,
+    "holdout": [
+      {
+        "month": "2025-10",
+        "actual": 257729,
+        "predicted": 312580
+      },
+      {
+        "month": "2025-11",
+        "actual": 342600,
+        "predicted": 333268
+      },
+      {
+        "month": "2025-12",
+        "actual": 317091,
+        "predicted": 288409
+      }
+    ],
+    "forecast": [
+      {
+        "month": "2026-01",
+        "value": 301170,
+        "low": 279038,
+        "high": 323302
+      },
+      {
+        "month": "2026-02",
+        "value": 273541,
+        "low": 251409,
+        "high": 295673
+      },
+      {
+        "month": "2026-03",
+        "value": 366031,
+        "low": 343899,
+        "high": 388163
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "ar": "خصّص ميزانية التسويق الأكبر لموسم الجمعة البيضاء: الإيراد اليومي فيه أعلى بنسبة 85٪ من الأيام العادية؛ جهّز المخزون والتوصيل قبله بأسبوعين.",
+      "en": "Put the biggest marketing budget on White Friday-type events (White Friday 2025): daily revenue runs 85% above normal days; stock up and add delivery capacity two weeks ahead."
+    },
+    {
+      "ar": "الدفع عند الاستلام يسجّل نسبة إرجاع 13.4٪ مقابل 6.4٪ لبقية وسائل الدفع: اعرض خصماً صغيراً للدفع المسبق (مدى / Apple Pay).",
+      "en": "Cash on delivery returns 13.4% of orders vs 6.4% for other methods: offer a small prepaid discount (mada / Apple Pay)."
+    },
+    {
+      "ar": "فئة «عبايات» الأعلى إرجاعاً (13.7٪): أضف جدول مقاسات وصوراً أوضح لتقليل الإرجاع.",
+      "en": "'Abayas' has the highest return rate (13.7%): add a size guide and clearer photos."
+    },
+    {
+      "ar": "أسرع توصيل في الرياض (2.5 يوم) وأبطؤه في مكة المكرمة (3.6 يوم): فاوض شركة شحن محلية في مكة المكرمة.",
+      "en": "Delivery is fastest in Riyadh (2.5 days) and slowest in Makkah (3.6 days): negotiate a local courier for Makkah."
+    },
+    {
+      "ar": "390 عميلاً «معرّضون للفقد» حققوا 4.9٪ من الإيراد: أطلق حملة استعادة بكود خصم شخصي.",
+      "en": "390 'at risk' customers brought 4.9% of revenue: run a win-back campaign with personal discount codes."
+    }
+  ],
+  "best_category": "عطور",
+  "champions": {
+    "customers": 1207,
+    "revenue_share": 57.1
+  },
+  "cleaning_log": [
+    {
+      "ar": "حذف الصفوف المكررة",
+      "en": "Removed exact duplicate rows",
+      "rows_removed": 95,
+      "rows_after": 15413
+    },
+    {
+      "ar": "حذف طلبات الاختبار",
+      "en": "Removed test orders",
+      "rows_removed": 12,
+      "rows_after": 15401
+    },
+    {
+      "ar": "حذف الكميات السالبة (استرجاعات مسجلة كطلبات)",
+      "en": "Removed negative quantities (refunds keyed as orders)",
+      "rows_removed": 25,
+      "rows_after": 15376
+    },
+    {
+      "ar": "توحيد أسماء المدن (14 صيغة ← ٥ مدن)، و179 طلباً بلا مدينة صُنّفت «غير محدد»",
+      "en": "Unified city spellings (14 variants -> 5 cities); 179 orders without a city set to 'Unknown'",
+      "rows_removed": 0,
+      "rows_after": 15376
+    },
+    {
+      "ar": "140 طلباً بلا مدة توصيل استُبعدت من متوسط التوصيل فقط",
+      "en": "140 orders missing delivery days excluded from delivery averages only",
+      "rows_removed": 0,
+      "rows_after": 15376
+    }
+  ],
+  "raw_rows": 15508,
+  "clean_rows": 15376
+}

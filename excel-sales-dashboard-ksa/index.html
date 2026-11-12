@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>لوحة مبيعات تفاعلية في إكسل | BahaWorks</title>
+<meta name="description" content="Interactive Arabic Excel sales dashboard: pick a year, city and category and every KPI and chart updates. No macros. Demonstration file on synthetic data.">
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1b1b19;--muted:#66655f;--grid:#e3e1da;--accent:#0f6e6a}
+@media (prefers-color-scheme:dark){:root{--bg:#131312;--card:#1f1f1d;--ink:#eeede8;--muted:#a3a29b;--grid:#34342f;--accent:#3fb6ae}}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 "Segoe UI",Tahoma,"Noto Sans Arabic",system-ui,sans-serif}
+main{max-width:980px;margin:auto;padding:28px 16px 60px} a{color:var(--accent)} small{color:var(--muted)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:14px;color:var(--muted)}
+.badge{border:1px solid var(--grid);border-radius:999px;padding:2px 10px;font-size:12.5px}
+h1{font-size:28px;line-height:1.3;margin:18px 0 4px} h2{font-size:20px;margin:34px 0 8px}
+.en{direction:ltr;text-align:left;color:var(--muted);font-size:14px;margin:0}
+.lead{font-size:17px}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:10px 18px;border-radius:10px;font-weight:600;margin:6px 0}
+figure{margin:14px 0;background:var(--card);border:1px solid var(--grid);border-radius:12px;padding:10px}
+figure img{width:100%;height:auto;display:block;border-radius:6px} figcaption{font-size:13.5px;color:var(--muted);padding:8px 4px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--grid);border-radius:12px;padding:14px}
+.card b{display:block;margin-bottom:4px}
+footer{margin-top:40px;border-top:1px solid var(--grid);padding-top:14px;font-size:13.5px;color:var(--muted)}
+</style></head><body><main>
+<div class="top"><a href="../">← BahaWorks — معرض الأعمال</a><span class="badge">مشروع توضيحي · بيانات تجريبية</span></div>
+<h1>لوحة مبيعات تفاعلية في إكسل</h1>
+<p class="en">Interactive Arabic Excel sales dashboard · no macros · Excel &amp; LibreOffice</p>
+<p class="lead">اختر السنة والمدينة والفئة من القوائم المنسدلة، فتتحدث المؤشرات والرسوم البيانية كلها فوراً، مع مقارنة تلقائية بالسنة السابقة.
+الملف مبني على أكثر من ١٥ ألف طلب لمتجر إلكتروني وهمي.</p>
+<a class="btn" href="naseem-sales-dashboard.xlsx" download>تحميل ملف الإكسل (١ ميغابايت)</a>
+
+<figure><img src="preview-dashboard.png" alt="لوحة المبيعات: كل المدن والفئات لعام ٢٠٢٥" loading="lazy">
+<figcaption>العرض الافتراضي: كل المدن والفئات لعام ٢٠٢٥ مقارنة بـ٢٠٢٤.</figcaption></figure>
+<figure><img src="preview-filtered.png" alt="لوحة المبيعات بعد اختيار جدة وفئة العبايات" loading="lazy">
+<figcaption>بعد اختيار «جدة» و«عبايات»: تتغير كل الأرقام والرسوم دون أي تعديل يدوي.</figcaption></figure>
+
+<h2>ما الذي يتضمنه الملف</h2>
+<div class="grid">
+<div class="card"><b>٥ مؤشرات رئيسية</b>صافي الإيراد، الطلبات، متوسط الطلب، نسبة الإرجاع، ومدة التوصيل، بلون أخضر أو أحمر حسب التحسن.</div>
+<div class="card"><b>٤ رسوم بيانية</b>الإيراد الشهري مقابل السنة السابقة، الإيراد حسب الفئة والمدينة، ووسائل الدفع.</div>
+<div class="card"><b>معادلات واضحة بلا ماكرو</b>SUMIFS و COUNTIFS في ورقة «الحسابات» يمكن مراجعتها خلية بخلية.</div>
+<div class="card"><b>عربي من اليمين لليسار</b>كل الأوراق بالاتجاه العربي، مع ورقة «طريقة الاستخدام».</div>
+</div>
+
+<h2>كيف بُني</h2>
+<div class="card">بيانات الطلبات من <a href="../sales-analysis-ecommerce-ksa/">مشروع تحليل المبيعات</a> بعد تنظيفها، ثم بُني الملف بسكربت Python
+(<a href="src/build_dashboard.py">build_dashboard.py</a>) وتم التحقق من أن أرقامه تطابق التحليل تماماً.</div>
+
+<footer>ملف توضيحي مبني على بيانات تجريبية لمتجر وهمي؛ أي تشابه مع متجر حقيقي غير مقصود.<br>
+<span dir="ltr">Demonstration file built on synthetic data for an invented store. · BahaWorks — Bahaeldin Ali</span></footer>
+</main></body></html>
